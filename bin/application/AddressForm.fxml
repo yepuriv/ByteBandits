@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddressFormController">
+    <children>
+        <Label layoutX="39.0" layoutY="35.0" text="Address" />
+        <Label layoutX="39.0" layoutY="75.0" text="Line 1:" />
+        <TextField fx:id="addressLine1Field" layoutX="110.0" layoutY="71.0" />
+        <Label layoutX="39.0" layoutY="115.0" text="Line 2:" />
+        <TextField fx:id="addressLine2Field" layoutX="110.0" layoutY="111.0" />
+        <Label layoutX="39.0" layoutY="155.0" text="City:" />
+        <TextField fx:id="cityField" layoutX="110.0" layoutY="151.0" />
+        <Label layoutX="39.0" layoutY="195.0" text="Postal Code:" />
+        <TextField fx:id="postalCodeField" layoutX="110.0" layoutY="191.0" />
+        <Label fx:id="addressFilledLabel" layoutX="39.0" layoutY="235.0" text="" />
+        
+        <Separator layoutX="39.0" layoutY="275.0" prefWidth="400.0" />
+        <Label layoutX="39.0" layoutY="305.0" text="Payment Options" />
+        <RadioButton fx:id="creditCardRadioButton" layoutX="39.0" layoutY="335.0" text="Credit Card" />
+        <Label layoutX="39.0" layoutY="375.0" text="Card Number:" />
+        <TextField fx:id="cardNumberField" layoutX="140.0" layoutY="371.0" />
+        <Label layoutX="39.0" layoutY="415.0" text="Expiration Date:" />
+        <TextField fx:id="expirationDateField" layoutX="140.0" layoutY="411.0" />
+        <Label layoutX="39.0" layoutY="455.0" text="CVV:" />
+        <TextField fx:id="cvvField" layoutX="140.0" layoutY="451.0" />
+        <Label fx:id="paymentFilledLabel" layoutX="39.0" layoutY="495.0" text="" />
+        
+        <ProgressBar fx:id="progressBar" layoutX="39.0" layoutY="550.0" prefWidth="400.0" />
+        <Button fx:id="proceedToPayButton" layoutX="320.0" layoutY="500.0" mnemonicParsing="false" text="Proceed to Pay" onAction="#handleProceedToPay" /> 
+    </children>
+</AnchorPane>

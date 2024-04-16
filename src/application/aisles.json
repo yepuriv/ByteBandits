@@ -1,0 +1,181 @@
+{
+	"aisles": [{
+			"number": "1",
+			"category": "Livingroom",
+			"items": [{
+					"name": "Living Room Table",
+					"price": "7",
+					"image": "livingroom1_tables.jpeg",
+					"count": "23"
+					
+				},
+				{
+					"name": "Living Room Chairs",
+					"price": "3",
+					"image": "livingroom2_chairs.jpeg",
+					"count": "5"
+				},
+				{
+					"name": "Sofa",
+					"price": "9",
+					"image": "livingroom3_sofas.jpeg",
+					"count": "18"
+				},
+				{
+					"name": "TV Stand",
+					"price": "6",
+					"image": "livingroom4_tv_stand.jpeg",
+					"count": "12"
+				}
+			]
+		},
+		{
+			"number": "2",
+			"category": "Bedroom",
+			"items": [{
+					"name": "Dresser",
+					"price": "7",
+					"image": "bedroom1_dresser.jpeg",
+					"count": "20"
+				},
+				{
+					"name": "Bed Frame",
+					"price": "4",
+					"image": "bedroom2_bed_frame.jpeg",
+					"count": "16"
+				},
+				{
+					"name": "Nightstand",
+					"price": "2",
+					"image": "bedroom3_nightstand.jpeg",
+					"count": "14"
+				},
+				{
+					"name": "Cabinets",
+					"price": "10",
+					"image": "bedroom4_cabinets.jpeg",
+					"count": "5"
+				}
+			]
+		},
+		{
+			"number": "3",
+			"category": "Kitchen",
+			"items": [{
+					"name": "Portable Storage",
+					"price": "4",
+					"image": "kitchen1_storage.jpeg",
+					"count": "8"
+				},
+				{
+					"name": "Space Slabs",
+					"price": "3",
+					"image": "kitchen2_slabs.jpeg",
+					"count": "19"
+				},
+				{
+					"name": "Portable Table",
+					"price": "3",
+					"image": "kitchen3_tables.jpeg",
+					"count": "7"
+				},
+				{
+					"name": "Cook-ware Shelves",
+					"price": "4",
+					"image": "kitchen4_cookware_shelves.jpeg",
+					"count": "6"
+				}
+			]
+		},
+		{
+			"number": "4",
+			"category": "Dining",
+			"items": [{
+					"name": "Dining Table",
+					"price": "9",
+					"image": "dining1_tables.jpeg",
+					"count": "11"
+				},
+				{
+					"name": "Bar Carts",
+					"price": "4",
+					"image": "dining2_carts.jpeg",
+					"count": "15"
+				},
+				{
+					"name": "Dining-room Storage",
+					"price": "5",
+					"image": "dining3_storage.jpeg",
+					"count": "22"
+				},
+				{
+					"name": "Dining Table Stools",
+					"price": "2",
+					"image": "dining4_stools.jpeg",
+					"count": "10"
+				}
+			]
+		},
+		{
+			"number": "5",
+			"category": "Restroom",
+			"items": [{
+				"name": "Restroom Storage",
+				"price": "8",
+				"image": "restroom1_storage.jpeg",
+				"count": "9"
+			},
+			{
+				"name": "Towel Stands",
+				"price": "1",
+				"image": "restroom2_towel_stand.jpeg",
+				"count": "9"
+			},
+			{
+				"name": "Restroom Organiser",
+				"price": "11",
+				"image": "restroom3_organizer.jpeg",
+				"count": "9"
+			},
+			{
+				"name": "Restroom Hardware",
+				"price": "3",
+				"image": "restroom4_hardware.jpeg",
+				"count": "9"
+			}
+
+		]
+		},
+		{
+			"number": "6",
+			"category": "Outdoor",
+			"items": [{
+				"name": "Smokin' Griller",
+				"price": "20",
+				"image": "outdoor1_smokin'_griller.jpeg",
+				"count": "2"
+			},
+			{
+				"name": "Outdoor Fence",
+				"price": "9",
+				"image": "outdoor2_fence.jpeg",
+				"count": "2"
+			},
+			{
+				"name": "Flower-Pots",
+				"price": "2",
+				"image": "outdoor3_flowerpot.jpeg",
+				"count": "2"
+			},
+			{
+				"name": "Designer Dustbins",
+				"price": "2",
+				"image": "outdoor4_heavy_dustbins.jpeg",
+				"count": "2"
+			}
+
+		]
+		
+		}
+	]
+}
